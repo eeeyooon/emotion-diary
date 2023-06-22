@@ -5,7 +5,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Nanum Pen Script";
+  font-family: "Jua";
   min-height: 100vh;
   margin: 0;
 }
@@ -42,7 +42,7 @@ body {
   padding: 10px 20px;
 
   font-size: 20px;
-  font-family: "Nanum Pen Script";
+  font-family: "Jua";
 
   white-space: nowrap;
 }
@@ -93,7 +93,7 @@ header .head_btn_right {
 }
 
 header button {
-  font-family: "Nanum Pen Script";
+  font-family: "Jua";
 }
 
 /*  DiaryList  */
@@ -125,7 +125,7 @@ header button {
 
   cursor: pointer;
 
-  font-family: "Nanum Pen Script";
+  font-family: "Jua";
 }
 
 /*  DiaryItem */
@@ -138,6 +138,7 @@ header button {
 
   display: flex;
   justify-content: space-between;
+  font-family: "Gamja Flower";
 }
 
 .DiaryItem .emotion_img_wrapper {
@@ -168,11 +169,6 @@ header button {
 .DiaryItem .emotion_img_wrapper_5 {
   background-color: #fd565f;
 }
-
-/* 
-.DiaryItem .emotion_img_wrapper img {
-  width: 50%;
-} */
 
 .DiaryItem .info_wrapper {
   flex-grow: 1;
