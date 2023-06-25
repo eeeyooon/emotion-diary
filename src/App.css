@@ -222,6 +222,24 @@ header button {
   gap: 2%;
 }
 
+.DiaryEditor textarea {
+  font-family: "Jua";
+  font-size: 20px;
+
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 200px;
+  resize: vertical;
+
+  border: none;
+  border-radius: 5px;
+  background-color: #e2e2e2;
+
+  padding: 20px;
+
+  outline: none;
+}
+
 /* Emotion Item */
 
 .EmotionItem {
