@@ -215,3 +215,58 @@ header button {
   font-family: "Jua";
   font-size: 20px;
 }
+
+.DiaryEditor .emotion_list_wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 2%;
+}
+
+/* Emotion Item */
+
+.EmotionItem {
+  cursor: pointer;
+
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.EmotionItem img {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.EmotionItem_off {
+  background-color: #ececec;
+}
+
+.EmotionItem_on_1 {
+  background-color: #64c964;
+  color: white;
+}
+
+.EmotionItem_on_2 {
+  background-color: #9dd772;
+  color: white;
+}
+
+.EmotionItem_on_3 {
+  background-color: #fdce17;
+  color: white;
+}
+
+.EmotionItem_on_4 {
+  background-color: #fd8446;
+  color: white;
+}
+
+.EmotionItem_on_5 {
+  background-color: #fd565f;
+  color: white;
+}
