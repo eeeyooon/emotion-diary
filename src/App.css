@@ -240,6 +240,12 @@ header button {
   outline: none;
 }
 
+.DiaryEditor .control_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Emotion Item */
 
 .EmotionItem {
