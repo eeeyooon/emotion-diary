@@ -27,7 +27,10 @@ const Home = () => {
       const lastDay = new Date(
         curDate.getFullYear(),
         curDate.getMonth() + 1,
-        0
+        0,
+        23,
+        59,
+        59
       ).getTime();
 
       //그 날짜에 해당하는 달의 일기만 가져오기
@@ -37,10 +40,6 @@ const Home = () => {
       );
     }
   }, [diaryList, curDate]);
-
-  useEffect(() => {
-    console.log(data);
-  }, [data]);
 
   const increaseMonth = () => {
     setCurdate(
