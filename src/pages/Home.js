@@ -12,6 +12,11 @@ const Home = () => {
   const [curDate, setCurdate] = useState(new Date());
   const headText = `${curDate.getFullYear()}년 ${curDate.getMonth() + 1}월`;
 
+  useEffect(() => {
+    const titleElement = document.getElementsByTagName("title")[0];
+    titleElement.innerHTML = `감정 일기장`;
+  }, []);
+
   // curDate가 변하는 순간에만 그 날짜에 해당하는 연도와 달의 일기를 가져옴
   useEffect(() => {
     //일기 데이터가 없을 땐 날짜 체크할 필요 x
