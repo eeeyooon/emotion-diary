@@ -1,4 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Jua&family=Nanum+Pen+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+@font-face {
+  font-family: "Dovemayo_gothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Humanbumsuk";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Humanbumsuk.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   background-color: #f6f6f6;
@@ -32,6 +48,10 @@ body {
   padding: 0 20px;
 }
 
+h4 {
+  font-family: "Humanbumsuk";
+}
+
 /* My Button  */
 
 .MyButton {
@@ -42,7 +62,7 @@ body {
   padding: 10px 20px;
 
   font-size: 20px;
-  font-family: "Jua";
+  font-family: "Dovemayo_gothic";
 
   white-space: nowrap;
 }
@@ -53,7 +73,7 @@ body {
 }
 
 .MyButton_positive {
-  background-color: #64c964;
+  background-color: #00b0f0;
   color: white;
 }
 
@@ -66,10 +86,10 @@ body {
 
 header {
   padding: 20px 0;
-
   display: flex;
   align-items: center;
   border-bottom: 1px solid #e2e2e2;
+  user-select: none;
 }
 
 header > div {
@@ -93,7 +113,7 @@ header .head_btn_right {
 }
 
 header button {
-  font-family: "Jua";
+  font-family: "Dovemayo_gothic";
 }
 
 /*  DiaryList  */
@@ -105,6 +125,7 @@ header button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  user-select: none;
 }
 
 .DiaryList .menu_wrapper .right-col {
@@ -138,7 +159,8 @@ header button {
 
   display: flex;
   justify-content: space-between;
-  font-family: "Gamja Flower";
+  font-family: "Dovemayo_gothic";
+  user-select: none;
 }
 
 .DiaryItem .emotion_img_wrapper {
@@ -193,6 +215,7 @@ header button {
 /* DiaryEditor */
 
 .DiaryEditor {
+  user-select: none;
 }
 
 .DiaryEditor section {
@@ -223,7 +246,7 @@ header button {
 }
 
 .DiaryEditor textarea {
-  font-family: "Jua";
+  font-family: "Dovemayo_gothic";
   font-size: 20px;
 
   box-sizing: border-box;
@@ -259,6 +282,8 @@ header button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  user-select: none;
 }
 
 .EmotionItem img {
@@ -297,12 +322,9 @@ header button {
 
 /* Diary */
 
-.DiaryPage {
-}
-
 .DiaryPage section {
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 
   display: flex;
   flex-direction: column;
@@ -313,22 +335,25 @@ header button {
 .DiaryPage h4 {
   font-size: 22px;
   font-weight: bold;
+  user-select: none;
 }
 
 .DiaryPage .diary_img_wrapper {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  user-select: none;
 }
 
 .DiaryPage .emotion_descript {
   font-size: 25px;
-  font-family: "Gamja Flower";
+  font-family: "Dovemayo_gothic";
   color: white;
+  user-select: none;
 }
 
 .DiaryPage .diary_img_wrapper_1 {
@@ -358,11 +383,12 @@ header button {
   word-break: keep-all;
   overflow-wrap: break-word;
 }
+
 .DiaryPage .diary_content_wrapper p {
   padding: 20px;
   text-align: left;
   font-size: 20px;
-  font-family: "Gamja Flower";
+  font-family: "Dovemayo_gothic";
   font-weight: 400;
   line-height: 2.5;
 }
