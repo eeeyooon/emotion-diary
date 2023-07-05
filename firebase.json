@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "eeeyooon-react",
+    "site": "eeeyooon-emotion-diary",
     "public": "build",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
