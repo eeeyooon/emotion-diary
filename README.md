@@ -47,12 +47,18 @@
 
 <br/>
 
-**MyButton**
+### MyButton
+
+<br/>
+
 ![공통 컴포넌트 - 버튼](https://github.com/eeeyooon/emotion-diary/assets/102462534/c79acf85-a786-46b0-bf27-1526612d8532)
 
 <br/>
 
-**MyHeader**
+### MyHeader
+
+<br/>
+
 ![공통 컴포넌트 - 헤더](https://github.com/eeeyooon/emotion-diary/assets/102462534/a8121b05-69c8-47de-a46f-ae36e5345bde)
 
 <br/>
@@ -76,15 +82,28 @@ React-Developer-Tools를 활용하여 연산이 낭비되고 있거나, 최적�
 
 ## 구현 화면
 
-일기 CRUD
 
-|                                                  일기 작성                                                   |                                                  일기 수정                                                   |                                                  일기 삭제                                                   |
-| :----------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
-| ![일기작성](https://github.com/eeeyooon/emotion-diary/assets/102462534/020b13fe-e6ee-4ab1-8360-7a5ccbf1074a) | ![일기수정](https://github.com/eeeyooon/emotion-diary/assets/102462534/31184fac-80b5-4012-a702-5cd2ebb33c33) | ![일기삭제](https://github.com/eeeyooon/emotion-diary/assets/102462534/a192e161-3d2e-4ce5-806f-e7807b25b5ae) |
+### 일기 작성
 
 <br/>
 
-정렬 및 필터링
+![일기작성](https://github.com/eeeyooon/emotion-diary/assets/102462534/020b13fe-e6ee-4ab1-8360-7a5ccbf1074a)
+
+<br/>
+
+### 일기 수정
+
+![일기수정](https://github.com/eeeyooon/emotion-diary/assets/102462534/31184fac-80b5-4012-a702-5cd2ebb33c33) 
+
+<br/>
+
+### 일기 삭제
+
+![일기삭제](https://github.com/eeeyooon/emotion-diary/assets/102462534/a192e161-3d2e-4ce5-806f-e7807b25b5ae) 
+
+<br/>
+
+### 정렬 및 필터링
 
 ![정렬및필터링](https://github.com/eeeyooon/emotion-diary/assets/102462534/5acda445-584d-408c-b6df-489c21d57408)
 
