@@ -16,9 +16,10 @@
 
 🏷 프로젝트 목표 : React 실습 및 적재적소에 Hooks를 사용하는 연습과 localStorage를 이용하여 웹 브라우저를 DB처럼 이용하는 방법, 파이어베이스를 통한 배포, Open Graph 설정까지 경험해보기.
 
+🚀 프로젝트 리빌딩 : 2023.09.15 ~ 2023.10.02 | [리빌딩 작업 레포](https://github.com/eeeyooon/Rebuild-EmotionDiary)
 <br/>
 
-[💙💬 감정 일기장 사용해보기](https://eeeyooon-emotion-diary.web.app/)
+[💙💬 감정 일기장 사용해보기](https://eeeyooon-emotion-diary.web.app/) (※ 리빌딩 내용이 반영된 링크입니다.)
 
 <br/>
 
